@@ -317,12 +317,15 @@ nav .nav-button a button {
 
 .rules-section{
   /* padding: 100px 0 100px 0; */
+
 }
 .rules-flex{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 
 }
 .rules-img{
@@ -342,7 +345,7 @@ nav .nav-button a button {
   font-family: "ClashDisplay-Bold";
   font-weight: 700;
   font-size: 36px;
-  max-width: 500px;
+  max-width: 300px;
   line-height: 43.56px;
   color: #fff;
   margin-bottom: 20px;
@@ -441,7 +444,74 @@ nav .nav-button a button {
   color: white;
   margin-top: 60px;
 }
+/* faq start */
+.faq-section{
+  /* padding: 100px 0 100px 0; */
+}
+.faq-flex{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 
+}
+.faq-img{
+  flex-basis: 55%;
+  display: flex;
+  padding-top: 50px;
+  overflow: visible;
+}
+.faq-img img{
+  width: 731px;
+  height: 731px;
+  object-fit: contain;
+}
+.faq-text{
+  flex-basis: 45%;
+  padding-top: 100px;
+}
+.faq-heading h1{
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 300px;
+  text-transform: capitalize;
+  line-height: 43.56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.faq-heading h1 span{
+  color: #d434fe;
+}
+.faq-heading p{
+  max-width: 400px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 27.5px;
+}
+.faq-accordion{
+  margin-top:20px;
+  max-width: 480px;
+}
+.faq-accordion ul li{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 27.5px;
+  padding: 23px 0 15px 0;
+  border-bottom: 1px solid rgba(212, 52, 254, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-accordion ul li span{
+  color: #d434fe;
+  font-size: 20px;
+}
 @media only screen and (max-width: 1260px) {
   .nav-container {
     padding-inline: 40px;
@@ -667,7 +737,7 @@ nav .nav-button a button {
   .rules-text h1{
     font-size: 20px;
     line-height: 26.6px;
-    max-width: 100px;
+    max-width: 200px;
   }
   .rules-img{
     flex-basis: 100%;
@@ -729,6 +799,79 @@ nav .nav-button a button {
     font-size: 12px;
     line-height: 20.82px;
   }
+  .rules-text{
+    flex-basis: 100%;
+  }
+  .criteria-text-body a button{
+    margin-top: 0;
+  }
+  .faq-img{
+    padding: 0;
+   
+  }
+  .faq-section{
+    padding: 50px 0 50px 0;
+  }
+  .faq-text{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .faq-flex{
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+  }
+  .faq-text h1{
+    font-size: 20px;
+    line-height: 26.6px;
+    max-width: 200px;
+  }
+  .faq-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-heading p{
+    font-size: 12px;
+    line-height: 27.5px;
+  }
+  .faq-img{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .faq-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-accordion ul li {
+    font-size: 12px;
+    gap: 10px;
+  }
+  .faq-img{
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .faq-img img{
+    width: 397px;
+    height: 397px;
+  }
+
+ 
   .rules-text{
     flex-basis: 100%;
   }

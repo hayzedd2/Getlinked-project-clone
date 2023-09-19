@@ -9,6 +9,7 @@ import sparkImage from "../images/1f4a5.png";
 import mobileImage from '../images/Hackathon guy.png'
 const HeroSection = () => {
   return (
+   <>
     <section className="hero-section">
       <div className="right-text">
         <h2>
@@ -36,7 +37,7 @@ const HeroSection = () => {
               <img src={creativeImage} className="vector-2 small-mobile-icons" alt="" />
             </div>
             </span>{" "}
-         <span className="mobile-increase">   Hackathon <span className="relative-chain" style={{ color: '#d434fe'}}>1.0  <div className="chain-spark">
+         <span className="mobile-increase">   <span>Hackathon</span> <span className="relative-chain" style={{ color: '#d434fe'}}>1.0  <div className="chain-spark">
                 <img src={chainImage} alt="" className="chain small-mobile-icons" />
                 <img src={sparkImage} alt="" className="spark small-mobile-icons" />
               </div></span></span>
@@ -83,7 +84,10 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      
     </section>
+    <div className="nav-border"></div>
+   </>
   );
 };
 

@@ -173,6 +173,8 @@ nav .nav-button a button {
 }
 
 .hero-section-text p{
+  position: relative;
+    z-index: 99;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 33.2px;
@@ -183,6 +185,8 @@ nav .nav-button a button {
   margin-bottom: 30px;
 }
 .hero-section-text a button{
+  position: relative;
+    z-index: 99;
   background: linear-gradient(
     270deg,
     #903aff 0%,
@@ -526,6 +530,7 @@ nav .nav-button a button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
   }
   .mobile-none{
     display: none;
@@ -547,6 +552,7 @@ nav .nav-button a button {
    margin: 10px auto;
    line-height: 21.58px;
    margin-bottom: 25px;
+   
   }
   .count-down-text{
     margin-top: 10px;
@@ -618,7 +624,6 @@ nav .nav-button a button {
     font-size: 20px;
    
     line-height: 26.6px;
-    border: 2px solid yellow;
   }
   .introduction-flex{
     flex-wrap: wrap;
@@ -643,9 +648,8 @@ nav .nav-button a button {
     padding: 50px 0 50px 0;
   }
   .rules-img img{
-    width: 294px;
+    width: 314px;
     height: 382px;
-    object-fit: cover;
   }
   .rules-text{
     flex-basis: 100%;
@@ -661,19 +665,17 @@ nav .nav-button a button {
     margin: 0;
   }
   .rules-text h1{
-    
+    font-size: 20px;
+    line-height: 26.6px;
+    max-width: 100px;
   }
   .rules-img{
-    width: 294px;
-    height: 382px;
-    object-fit: contain;
     flex-basis: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
     margin: 0;
-    border: 2px solid green;
   }
   .rules-text{
     flex-basis: 100%;
@@ -684,6 +686,7 @@ nav .nav-button a button {
   .criteria-img img{
     width: 332px;
     height: 275px;
+   
   }
   .criteria-text{
     flex-basis: 100%;
@@ -698,8 +701,10 @@ nav .nav-button a button {
     gap: 0;
     margin: 0;
   }
-  .rules-text h1{
-    
+  .criteria-heading h1{
+    font-size: 20px;
+    line-height: 26.6px;
+    max-width: 200px;
   }
   .criteria-img{
     flex-basis: 100%;
@@ -708,9 +713,26 @@ nav .nav-button a button {
     justify-content: center;
     padding: 0;
     margin: 0;
-    border: 2px solid green;
+  }
+  .criteria-text-body{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .criteria-text-body ul li span{
+    font-size: 13px;
+  }
+  .criteria-text-body ul li{
+    font-size: 12px;
+    line-height: 20.82px;
   }
   .rules-text{
     flex-basis: 100%;
+  }
+  .criteria-text-body a button{
+    margin-top: 0;
   }
 }

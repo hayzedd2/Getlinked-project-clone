@@ -501,6 +501,7 @@ nav .nav-button a button {
   font-size: 15px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  text-align: left;
   line-height: 27.5px;
   padding: 23px 0 15px 0;
   border-bottom: 1px solid rgba(212, 52, 254, 1);
@@ -859,6 +860,10 @@ nav .nav-button a button {
   .faq-accordion ul li {
     font-size: 12px;
     gap: 10px;
+    display: flex;
+    text-align: normal;
+    align-items: flex-start;
+    line-height: 23.55px;
   }
   .faq-img{
     padding-top: 50px;

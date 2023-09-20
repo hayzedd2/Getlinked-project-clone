@@ -513,6 +513,117 @@ nav .nav-button a button {
   color: #d434fe;
   font-size: 20px;
 }
+/* timeline starts */
+.timeline-section{
+  padding: 100px 0 100px 0;
+}
+.timeline-heading{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timeline-heading h1{
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 300px;
+  text-transform: capitalize;
+  line-height: 43.56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.timeline-heading p{
+  max-width: 350px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24.14px;
+}
+.timeline-content{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.timeline-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+  margin-top: 10px;
+}
+.timeline-text{
+  margin-top: 50px;
+}
+
+.timeline-left{
+  text-align: right;
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.timeline-left p{
+  text-align: right;
+  max-width: 415px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24.93px;
+  color: #fff;
+}
+.timeline-right p{
+  max-width: 420px;
+  text-align: left;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24.93px;
+  color: #fff;
+}
+
+.timeline-text h3{
+  color: #d434fe;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  
+}
+.timeline-right{
+  text-align: left;
+  flex-basis: 45%;
+}
+.timeline-number{
+  width: 48px;
+  height: 48px;
+  border-radius: 26.5px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  font-size: 24px;
+  line-height: 29.26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}.timeline-number-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-basis: 10%;
+}
+.phone{
+  display: none;
+}
+.timeline-number-flex .line{
+  border: 2px solid rgba(212, 52, 254, 1);
+  height: 95px;
+}
 @media only screen and (max-width: 1260px) {
   .nav-container {
     padding-inline: 40px;
@@ -869,7 +980,7 @@ nav .nav-button a button {
     padding-top: 50px;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .faq-img img{
     width: 397px;
@@ -882,5 +993,76 @@ nav .nav-button a button {
   }
   .criteria-text-body a button{
     margin-top: 0;
+  }
+  .timeline-flex{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .timeline-heading h1{
+    font-size: 20px;
+    margin: 0;
+  }
+  .timeline-heading p{
+    font-size: 14px;
+    line-height: 24.14px;
+    max-width: 300px;
+  }
+  .timeline-section{
+   padding: 75px 0 75px 0;
+  }
+  .timeline-content{
+    margin: 0 auto;
+  }
+  .phone{
+    flex-direction: row;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .phone .timeline-number-flex{
+    flex-basis: 10%;
+  }
+ 
+  .phone .timeline-text{
+    margin-top: 0;
+    width: auto;
+    max-width: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .phone .timeline-left , .timeline-right{
+    margin-top: 0;
+    text-align: center;
+  }
+  .timeline-number-flex .line{
+    height: 80px;
+  }
+  .timeline-left p , .timeline-right p{
+    text-align: none;
+    max-width: none;
+    text-align: left;
+    font-size: 13px;
+    margin-block: 10px;
+    line-height: 20.51px;
+  }
+  .phone-sub{
+    flex-basis: 90%;
+  }
+  .timeline-number{
+    width: 21.32px;
+    height: 21.32px;
+    font-size: 12px;
+  }
+  .timeline-left h3 , .timeline-right h3{
+    font-size: 13px;
+    line-height: 14.63px;
+    margin: 0;
+    text-align: left;
+  }
+  .desktop{
+    display: none;
   }
 }

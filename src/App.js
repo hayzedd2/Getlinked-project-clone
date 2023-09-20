@@ -4,6 +4,8 @@ import Introduction from "./components/Introduction";
 import Rules from "./components/Rules";
 import Criteria from "./components/Criteria";
 import FAQ from "./components/FAQ";
+import Timeline from "./components/Timeline";
+import Footer from "./components/Footer";
 function App() {
   
   return (
@@ -14,6 +16,8 @@ function App() {
       <Rules/>
       <Criteria/>
       <FAQ/>
+      <Timeline/>
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&family=Unica+One&display=swap');
 @font-face {
   font-family: "ClashDisplay-Bold";
   src: url("../Fonts/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2");
@@ -585,7 +585,7 @@ nav .nav-button a button {
 
 .timeline-text h3{
   color: #d434fe;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 29.26px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -623,6 +623,111 @@ nav .nav-button a button {
 .timeline-number-flex .line{
   border: 2px solid rgba(212, 52, 254, 1);
   height: 95px;
+}
+/* footer */
+
+footer{
+  background: rgba(16, 11, 32, 1);
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.footer-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0 75px 0;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(12 , 1fr);
+  color: white;
+  gap: 20px;
+}
+.about-company{
+  grid-column: span 6;
+}
+.about-company h1{
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.about-company h1 span{
+  color: #d434fe;
+}
+.about-company p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  max-width: 450px;
+  line-height: 24.69px;
+  font-size: 13px;
+}
+.about-flex{
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  gap: 10px;
+}
+.about-flex-border{
+  border-right: 3px solid #d434fe;
+  height: 20px;
+}
+.company-links{
+  grid-column: span 3;
+}
+.similar h3{
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-block: 15px;
+  color: #d434fe;
+}
+.company-links ul{
+  line-height: 2.6;
+}
+.similar ul li{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.company-links ul li:last-child{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.social-icons-flex{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.social-icons-flex img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.contact-us{
+  grid-column: span 3;
+}
+.contact-us ul{
+  line-height: 2.4;
+}
+.contact-us ul li{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* max-width: 200px; */
+}
+.footer-last-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+.footer-last-text p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
 }
 @media only screen and (max-width: 1260px) {
   .nav-container {
@@ -1064,5 +1169,25 @@ nav .nav-button a button {
   }
   .desktop{
     display: none;
+  }
+  .footer-container{
+    padding-inline: 50px;
+  }
+  .about-company h1{
+    font-size: 20px;
+  }
+  .about-company p{
+    /* font-size: 12px; */
+    line-height: 22.69px;
+    max-width: 370px;
+  }
+  .about-flex{
+    margin-top: 40px;
+  }
+  .about-company, .company-links , .contact-us{
+    grid-column: span 12;
+  }
+  .contact-us ul li{
+    max-width: 250px;
   }
 }

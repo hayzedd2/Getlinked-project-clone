@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="about-company">
               <h1>
-                get <span>linked</span>
+                get<span>linked</span>
               </h1>
               <p>
                 Getlinked Tech Hackathon is a technology innovation program
@@ -23,27 +23,29 @@ const Footer = () => {
               </p>
 
               <div className="about-flex">
-                <p>Terms of Use</p>
+                <p >Terms of Use</p>
+                <div className="about-flex-border"></div>
                 <p>Privacy Policy</p>
               </div>
             </div>
-            <div className="company-links">
+            <div className="company-links similar">
               <h3>Useful links</h3>
               <ul>
-                <li>Overview</li>
-                <li>Timeline</li>
-                <li>FAQs</li>
+                <li><a href="">Overview</a></li>
+                <li><a href="">Timeline</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Register</a></li>
                 <li>
                   Follow us <div className="social-icons-flex">
-                    <img src={instagram} alt="" />
-                    <img src={twitter} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={linkedin} alt="" />
+                    <a href="#"><img src={instagram} alt="" /></a>
+                    <a href="#"><img src={twitter} alt="" /></a>
+                   <a href="#"> <img src={facebook} alt="" /></a>
+                   <a href="#"> <img src={linkedin} alt="" /></a>
                   </div>
                 </li>
               </ul>
             </div>
-            <div className="contact-us">
+            <div className="contact-us similar">
               <h3>Contact us</h3>
               <ul>
                 <li>
@@ -60,6 +62,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="footer-last-text">
+            <p>All rights reserved. © getlinked Ltd.</p>
           </div>
         </div>
       </footer>

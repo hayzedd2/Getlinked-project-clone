@@ -17,7 +17,7 @@ function App() {
       <Criteria/>
       <FAQ/>
       <Timeline/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

@@ -13,10 +13,10 @@
   src: url("../Fonts/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2");
 }
 body {
-  max-width: 1370px;
+  
   margin: 0 auto;
   background-color: #150e28;
-  padding-inline: 20px;
+ 
   overflow-x: hidden;
 }
 /* NAVBAR STARTS */
@@ -27,12 +27,14 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18)
 }
 .nav-container {
-  margin: 30px 0 25px 0;
+  max-width: 1350px;
+  margin: 30px auto;
 }
 nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
+  padding-inline: 20px;
 }
 nav .logo {
   flex: 1;
@@ -100,6 +102,10 @@ nav .nav-button a button {
 /* HERO-SECTION */
 .hero-section{
   padding: 0 0 80px  0;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  
 }
 .hero-section-grid{
   margin: 90px auto;
@@ -272,6 +278,7 @@ nav .nav-button a button {
 /* INTRODUCTION SECTION STARTS */
 .introduction-section{
   padding: 100px 0 100px 0;
+  padding-inline: 20px;
 }
 .introduction-flex{
   display: flex;
@@ -317,6 +324,7 @@ nav .nav-button a button {
 
 .rules-section{
   /* padding: 100px 0 100px 0; */
+  padding-inline: 20px;
 
 }
 .rules-flex{
@@ -369,6 +377,7 @@ nav .nav-button a button {
 /* CRITERIA-SECTION */
 .criteria-section{
   padding: 100px 0 100px 0;
+  padding-inline: 20px;
 }
 .criteria-flex{
   display: flex;
@@ -447,6 +456,7 @@ nav .nav-button a button {
 /* faq start */
 .faq-section{
   /* padding: 100px 0 100px 0; */
+  padding-inline: 20px;
 }
 .faq-flex{
   display: flex;
@@ -516,6 +526,7 @@ nav .nav-button a button {
 /* timeline starts */
 .timeline-section{
   padding: 100px 0 100px 0;
+  padding-inline: 20px;
 }
 .timeline-heading{
   text-align: center;
@@ -624,13 +635,64 @@ nav .nav-button a button {
   border: 2px solid rgba(212, 52, 254, 1);
   height: 95px;
 }
+/* prize section starts */
+
+.prize-section{
+  padding: 100px 0 100px 0;
+  padding-inline: 20px;
+  background: rgba(16, 11, 32, 1);
+  border: 2px solid red;
+ 
+}
+.prize-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+
+}
+.prize-text-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.prize-text-heading h1{
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 300px;
+  line-height: 39.36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.prize-text-heading h1 span{
+  color: #d434fe;
+}
+.prize-text-heading p{
+  font-size: 15px;
+  line-height: 27.34px;
+  color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.prize-img{
+  margin-top: 140px;
+}
+.prize-text-img{
+  margin-top: 100px;
+}
+/*  */
 /* footer */
 
 footer{
   background: rgba(16, 11, 32, 1);
-  position: absolute;
-  right: 0;
-  left: 0;
 }
 .footer-container{
   max-width: 1200px;
@@ -794,6 +856,7 @@ footer{
   }
   .hero-section{
     padding: 0 0 0 0;
+    padding-inline: 30px;
   }
   .hero-section-grid{
     flex-wrap: wrap;
@@ -894,6 +957,7 @@ footer{
   }
   .introduction-section{
     padding: 50px 0 50px 0;
+    padding-inline: 30px;
   }
   .introduction-img{
     flex-basis: 100%;
@@ -933,6 +997,7 @@ footer{
   }
   .rules-section{
     padding: 50px 0 50px 0;
+    padding-inline: 30px;
   }
   .rules-img img{
     width: 314px;
@@ -969,6 +1034,7 @@ footer{
   }
   .criteria-section{
     padding: 50px 0 50px 0;
+    padding-inline: 30px;
   }
   .criteria-img img{
     width: 332px;
@@ -1028,6 +1094,7 @@ footer{
   }
   .faq-section{
     padding: 50px 0 50px 0;
+    padding-inline: 30px;
   }
   .faq-text{
     flex-basis: 100%;
@@ -1114,6 +1181,7 @@ footer{
   }
   .timeline-section{
    padding: 75px 0 75px 0;
+   padding-inline: 30px;
   }
   .timeline-content{
     margin: 0 auto;

@@ -6,6 +6,7 @@ import Criteria from "./components/Criteria";
 import FAQ from "./components/FAQ";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
+import Prize from "./components/Prize";
 function App() {
   
   return (
@@ -16,8 +17,10 @@ function App() {
       <Rules/>
       <Criteria/>
       <FAQ/>
-      <Timeline/>
+      <Timeline/> 
+      <Prize/>
       <Footer/>
+     
     </div>
   );
 }

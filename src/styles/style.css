@@ -490,11 +490,10 @@ nav .nav-button a button {
 }
 .faq-accordion {
   margin-top: 20px;
-  max-width: 480px;
 }
 .faq-accordion ul li {
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   text-align: left;
@@ -1029,13 +1028,14 @@ footer {
     gap: 30px;
   }
   .hero-section-text h1 {
-    font-size: 32px;
-    max-width: 400px;
+    font-size: 1.75rem;
+    max-width: 100%;
     margin: 0 auto;
     line-height: 21.58px;
     line-height: 42.36px;
     text-align: center;
   }
+ 
   .hero-section-text {
     display: flex;
     flex-direction: column;
@@ -1058,7 +1058,8 @@ footer {
   }
   .hero-section-text p {
     font-size: 13px;
-    max-width: 260px;
+    max-width: 80%;
+    text-align: center;
     margin: 10px auto;
     line-height: 21.58px;
     margin-bottom: 25px;
@@ -1132,6 +1133,9 @@ footer {
 
     line-height: 26.6px;
   }
+  .introduction-text p{
+    max-width: 100%;
+  }
   .introduction-flex {
     flex-wrap: wrap;
   }
@@ -1187,6 +1191,9 @@ footer {
   .rules-text {
     flex-basis: 100%;
   }
+  .rules-text p{
+    max-width: 100%;
+  }
   .criteria-section {
     padding: 50px 0 50px 0;
     padding-inline: 30px;
@@ -1230,11 +1237,12 @@ footer {
     justify-content: center;
   }
   .criteria-text-body ul li span {
-    font-size: 13px;
+    font-size: 0.82rem;
   }
   .criteria-text-body ul li {
-    font-size: 12px;
-    line-height: 20.82px;
+    font-size: 0.8rem;
+    line-height: 22.82px;
+    max-width: 100%;
   }
   .rules-text {
     flex-basis: 100%;
@@ -1247,7 +1255,10 @@ footer {
   }
   .faq-section {
     padding: 50px 0 50px 0;
-    padding-inline: 20px;
+    padding-inline: 30px;
+  }
+  .faq-accordion{
+    max-width: 100%;
   }
   .faq-text {
     flex-basis: 100%;
@@ -1292,9 +1303,14 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    flex-basis: 100%;
+  }
+  .faq-accordion{
+    width: 100%;
   }
   .faq-accordion ul li {
-    font-size: 12px;
+    font-size: 0.8rem;
     gap: 10px;
     display: flex;
     text-align: normal;
@@ -1310,6 +1326,9 @@ footer {
   .faq-img img {
     width: 397px;
     height: 397px;
+  }
+  .faq-accordion{
+    max-width: 100%;
   }
 
   .rules-text {
@@ -1418,6 +1437,7 @@ footer {
   .prize-text-heading,
   .prize-flex {
     flex-wrap: wrap;
+    max-width: 100%;
   }
   .prize-sub {
     text-align: center;
@@ -1440,8 +1460,8 @@ footer {
     margin-bottom: 10px;
   }
   .prize-sub p {
-    font-size: 12px;
-    max-width: 300px;
+    font-size: 0.8rem;
+    max-width: 100%;
     line-height: 20.51px;
   }
   .prize-text-img,
@@ -1475,9 +1495,9 @@ footer {
     margin-bottom: 10px;
   }
   .partners-heading p{
-    font-size: 12px;
+    font-size: 0.8rem;
     line-height: 20.5px;
-    max-width: 286px;
+    max-width: 100%;
   }
   .privacy-section{
     padding-block: 75px;
@@ -1510,12 +1530,12 @@ footer {
     line-height: 24.6px;
   }
   .privacy-text-heading p{
-    font-size: 12px;
+    font-size: 0.8rem;
     line-height: 27.5px;
   }
   .privacy-text-heading h6{
     max-width: 100%;
-    font-size: 12px;
+    font-size: 0.8rem;
     line-height: 22.61px;
   }
   .privacy-text-box{
@@ -1543,11 +1563,11 @@ footer {
     align-items: flex-start;
   }
   .lower-text-heading h3{
-    font-size: 13px;
+    font-size: 0.9rem;
     margin-bottom: 0;
   }
   .lower-text-heading p{
-    font-size: 12px;
+    font-size: 0.8rem;
     
   }
   .lower-text a button{
@@ -1559,7 +1579,7 @@ footer {
     margin-top: 10px;
   }
   .lower-text-list ul li{
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 21.11px;
     max-width: 100%;
   }

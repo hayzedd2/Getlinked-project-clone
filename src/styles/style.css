@@ -1094,7 +1094,7 @@ footer{
   }
   .faq-section{
     padding: 50px 0 50px 0;
-    padding-inline: 30px;
+    padding-inline: 20px;
   }
   .faq-text{
     flex-basis: 100%;
@@ -1181,7 +1181,7 @@ footer{
   }
   .timeline-section{
    padding: 75px 0 75px 0;
-   padding-inline: 30px;
+   padding-inline: 20px;
   }
   .timeline-content{
     margin: 0 auto;

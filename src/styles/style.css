@@ -1481,11 +1481,11 @@ footer {
   }
   .privacy-section{
     padding-block: 75px;
-    padding-inline: 50px;
+    padding-inline: 40px;
     padding-bottom: 0;
   }
   .privacy-flex{
-    gap: 0;
+    gap: 20px;
   }
   .privacy-text-heading{
     text-align: center;
@@ -1506,7 +1506,7 @@ footer {
   }
   .privacy-text-heading h1{
     font-size: 20px;
-    max-width: 200px;
+    max-width: 50%;
     line-height: 24.6px;
   }
   .privacy-text-heading p{
@@ -1514,7 +1514,7 @@ footer {
     line-height: 27.5px;
   }
   .privacy-text-heading h6{
-    max-width: 280px;
+    max-width: 100%;
     font-size: 12px;
     line-height: 22.61px;
   }
@@ -1530,10 +1530,17 @@ footer {
   }
   .upper-text p{
     font-size: 13px;
+    max-width: 100%;
     line-height: 29.97px;
-    /* max-width: 298px; */
     font-weight: 400;
     
+  }
+  .lower-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .lower-text-heading{
+    align-items: flex-start;
   }
   .lower-text-heading h3{
     font-size: 13px;
@@ -1549,17 +1556,18 @@ footer {
     font-size: 12px;
   }
   .lower-text-list{
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
+    margin-top: 10px;
   }
   .lower-text-list ul li{
     font-size: 12px;
     line-height: 21.11px;
+    max-width: 100%;
   }
-  .lower-text-list ul li span{
-    width: 27px;
-    height: 27px;
+  .lower-text-list ul li span img{
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+    margin-top: 0;
   }
   .privacy-flex{
     flex-wrap: wrap;

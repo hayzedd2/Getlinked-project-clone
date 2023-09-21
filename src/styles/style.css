@@ -713,6 +713,147 @@ nav .nav-button a button {
   justify-content: center;
   padding: 100px 20px 100px 20px;
 }
+/* privacy */
+.privacy-section{
+  padding: 100px 0 100px 0;
+  padding-inline: 20px;
+}
+.privacy-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.privacy-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+.privacy-text {
+  flex-basis: 50%;
+}.privacy-img{
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-basis: 50%;
+  background-image: url('../images/Vector\ \(5\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: top right;
+}
+.privacy-img img{
+  width: 499px;
+  height: 689px;
+  object-fit: contain;
+  margin-top: 150px;
+  margin-right: 30px;
+}
+.privacy-text-heading h1{
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.36px;
+  max-width: 300px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.privacy-text-heading h1 span{
+  color: #d434fe;
+}
+.privacy-text-heading p{
+  font-size: 14px;
+  line-height: 27.5px;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 258px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.privacy-text-heading h6{
+  font-size: 14px;
+  line-height: 26.38px;
+  max-width: 438px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-block: 20px;
+}
+.privacy-text-box{
+  margin-top: 50px;
+  /* padding: 50px 40px 50px 40px;
+   */
+   padding: 50px;
+  border: 1px solid rgba(212, 52, 254, 1);
+  border-radius: 5px;
+}
+.upper-text p{
+  line-height: 30.3px;
+  max-width: 425px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.lower-text{
+  margin-top: 20px;
+}
+.lower-text-heading h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #d434fe;
+  margin-bottom: 10px;
+}
+.lower-text-heading p{
+  line-height: 30.3px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.lower-text-list{
+  margin-top: 20px;
+}
+.lower-text-list ul li{
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 30.3px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 450px;
+
+}
+.lower-text-list ul li span img{
+   margin-top: 10px;
+}
+.privacy-button{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacy-button a button{
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  width: 172px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  line-height: 19.5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+}
 /* footer */
 
 footer {
@@ -1337,5 +1478,96 @@ footer {
     font-size: 12px;
     line-height: 20.5px;
     max-width: 286px;
+  }
+  .privacy-section{
+    padding-block: 75px;
+    padding-inline: 50px;
+    padding-bottom: 0;
+  }
+  .privacy-flex{
+    gap: 0;
+  }
+  .privacy-text-heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .privacy-img{
+    background-position: top;
+    background-size: contain;
+    margin: 15px ;
+    align-items: center;
+    justify-content: center;
+  }
+  .privacy-img img{
+    margin: 0;
+  }
+  .privacy-text-heading h1{
+    font-size: 20px;
+    max-width: 200px;
+    line-height: 24.6px;
+  }
+  .privacy-text-heading p{
+    font-size: 12px;
+    line-height: 27.5px;
+  }
+  .privacy-text-heading h6{
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 22.61px;
+  }
+  .privacy-text-box{
+    margin-top: 25px;
+    padding: 40px 20px 40px 20px;
+  }
+  .upper-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .upper-text p{
+    font-size: 13px;
+    line-height: 29.97px;
+    /* max-width: 298px; */
+    font-weight: 400;
+    
+  }
+  .lower-text-heading h3{
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .lower-text-heading p{
+    font-size: 12px;
+    
+  }
+  .lower-text a button{
+    width: 99.35px;
+    height: 33.35px;
+    font-size: 12px;
+  }
+  .lower-text-list{
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .lower-text-list ul li{
+    font-size: 12px;
+    line-height: 21.11px;
+  }
+  .lower-text-list ul li span{
+    width: 27px;
+    height: 27px;
+  }
+  .privacy-flex{
+    flex-wrap: wrap;
+  }
+  .privacy-text{
+    flex-basis: 100%;
+  }
+  .privacy-img{
+    flex-basis: 100%;
   }
 }

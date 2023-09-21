@@ -7,6 +7,7 @@ import FAQ from "./components/FAQ";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import Prize from "./components/Prize";
+import Privacy from "./components/Privacy";
 import Partners from "./components/Partners";
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Timeline/> 
       <Prize/>
       <Partners/>
+      <Privacy/>
       <Footer/>
      
     </div>

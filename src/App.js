@@ -7,6 +7,7 @@ import FAQ from "./components/FAQ";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import Prize from "./components/Prize";
+import Partners from "./components/Partners";
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
       <FAQ/>
       <Timeline/> 
       <Prize/>
+      <Partners/>
       <Footer/>
      
     </div>

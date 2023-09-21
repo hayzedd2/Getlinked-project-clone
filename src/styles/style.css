@@ -640,25 +640,28 @@ nav .nav-button a button {
 .prize-section{
   padding: 100px 0 100px 0;
   padding-inline: 20px;
-  background: rgba(16, 11, 32, 1);
-  border: 2px solid red;
- 
+  background: rgba(16, 11, 32, 1); 
 }
 .prize-flex{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
-  /* max-width: 1200px;
-  margin: 0 auto; */
+  margin-top: 100px;
 
 }
 .prize-text-heading{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 
+}
+.empty-prize{
+  flex-basis: 55%;
+}
+.prize-sub{
+  flex-basis: 45%;
 }
 .prize-text-heading h1{
   font-family: "ClashDisplay-Bold";
@@ -677,17 +680,11 @@ nav .nav-button a button {
   line-height: 27.34px;
   color: white;
   max-width: 400px;
-  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
-.prize-img{
-  margin-top: 140px;
-}
-.prize-text-img{
-  margin-top: 100px;
-}
+
 /*  */
 /* footer */
 
@@ -1257,5 +1254,49 @@ footer{
   }
   .contact-us ul li{
     max-width: 250px;
+  }
+  .prize-text-heading , .prize-flex{
+    flex-wrap: wrap;
+  }
+  .prize-sub{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prize-sub , .prize-img , .prize-text{
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .prize-sub h1{
+    font-size: 20px;
+    line-height: 24.6px;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  .prize-sub p{
+    font-size: 12px;
+    max-width: 300px;
+    line-height: 20.51px;
+  }
+  .prize-text-img , .prize-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prize-flex{
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .prize-text-img img{
+    width: 351px;
+    height: 282px;
+    object-fit: contain;
+  }
+  .prize-img img{
+    width: 321px;
+    height: 282px;
   }
 }

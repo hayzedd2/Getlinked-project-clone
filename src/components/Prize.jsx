@@ -5,16 +5,13 @@ import prizeTextImage from "../images/Rewards.png";
 const Prize = () => {
   return (
     <>
-    <div className="nav-border"></div>
       <section className="prize-section">
         <div className="prize-container">
-          <div className="prize-flex">
-            <div className="prize-img">
-              <img src={prizeImage} alt="" />
-            </div>
-            <div className="prize-text">
-              <div className="prize-text-heading">
-               <div className="prize-sub">
+        <div className="prize-text-heading">
+              <div className="empty-prize">
+              
+              </div>
+              <div className="prize-sub">
                <h1>
                   Prizes and <span>Rewards</span>
                 </h1>
@@ -24,6 +21,11 @@ const Prize = () => {
                 </p>
                </div>
               </div>
+          <div className="prize-flex">
+            <div className="prize-img">
+              <img src={prizeImage} alt="" />
+            </div>
+            <div className="prize-text">
               <div className="prize-text-img">
                 <img src={prizeTextImage} alt="" />
               </div>

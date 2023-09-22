@@ -9,7 +9,7 @@ const FAQ = () => {
       <section className="faq-section">
         <div className="faq-container">
           <div className="faq-flex">
-          <img src={whiteStar} className="faq-white mobile-star" alt="" />
+          <img src={whiteStar} className="faq-white mobile-star mobile-none-star" alt="" />
             <div className="faq-text">
               <div className="faq-heading">
                 <img src={pinkStar} className="faq-pink-star mobile-star" alt="" />
@@ -20,8 +20,8 @@ const FAQ = () => {
                 </p>
               </div>
               <div className="faq-accordion">
-                <img src={greyStar} className="accordion-grey mobile-star" alt="" />
-                <img src={pinkStar} className="accordion-pink mobile-star" alt="" />
+                <img src={greyStar} className="accordion-grey mobile-star mobile-none-star" alt="" />
+                <img src={pinkStar} className="accordion-pink mobile-star mobile-none-star" alt="" />
                 <ul>
                   <li>
                     Can I work on a project I started before the hackathon?{" "}

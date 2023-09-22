@@ -1242,6 +1242,17 @@ footer {
   color: white;
 }
 @media only screen and (max-width: 1260px) {
+  body{
+    width: 100vw;
+    border: 2px solid red;
+    overflow-x: hidden
+  }
+  .mobile-none-star{
+    display: none;
+  }
+  .purple-flare{
+    display: none;
+  }
   .nav-container {
     padding-inline: 40px;
     margin: 26px 0 21px 0;

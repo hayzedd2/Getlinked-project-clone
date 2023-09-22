@@ -5,6 +5,8 @@ import  instagram from '../images/Vector (3).png'
 import twitter from '../images/Vector.png'
 import phone from '../images/Group.png'
 import location from '../images/Vector (4).png'
+import whiteStar from '../images/star (1).png'
+import pinkStar from '../images/star pu.png'
 const Footer = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-grid">
             <div className="about-company">
+              <img src={whiteStar} className="footer-white-1 mobile-star" alt="" />
+              <img src={pinkStar} className="footer-pink mobile-star" alt="" />
               <h1>
                 get<span>linked</span>
               </h1>
@@ -46,6 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="contact-us similar">
+            <img src={whiteStar} className="footer-white-2 mobile-star" alt="" />
               <h3>Contact us</h3>
               <ul>
                 <li>

@@ -1,11 +1,16 @@
 import React from "react";
-
+import pinkStar from '../images/star pu.png'
+import greyStar from '../images/star.png'
+import whiteStar from '../images/star (1).png'
 const Timeline = () => {
   return (
     <>
       <div className="nav-border"></div>
       <section className="timeline-section">
         <div className="timeline-container">
+            <img src={pinkStar} className="timeline-pink mobile-star" alt="" />
+            <img src={greyStar} className="timeline-grey mobile-star" alt="" />
+            <img src={whiteStar} className="timeline-white mobile-star" alt="" />
           <div className="timeline-heading">
             <h1>Timeline</h1>
             <p>

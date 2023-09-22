@@ -1,6 +1,7 @@
 import React from "react";
 import introductionImage from "../images/the big idea 1.png";
-
+import pinkStar1 from '../images/sata gra@3x.png'
+import pinkStar2 from '../images/star pu.png'
 const Introduction = () => {
   return (
     
@@ -9,10 +10,14 @@ const Introduction = () => {
         
         <div className="introduction-container">
           <div className="introduction-flex">
+          <span><img src={pinkStar1} className="introduction-pink-1 star mobile-star" alt="" /></span>
+          
             <div className="introduction-img">
               <img src={introductionImage} alt="" />
             </div>
             <div className="introduction-text">
+            <span><img src={pinkStar1} className="introduction-pink-2 mobile-star" alt="" /></span>
+
               <h1>Introduction to getlinked <span> tech Hackathon 1.0</span></h1>
               <p>
                 Our tech hackathon is a melting pot of visionaries, and its

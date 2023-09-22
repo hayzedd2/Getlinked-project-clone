@@ -1,6 +1,10 @@
 import React from "react";
 import privacyImage from '../images/08 1.png'
 import listImage from '../images/list terms.png'
+import privacyFlare from '../images/Purple-Lens-Flare-PNG (1).png'
+import greyImage from '../images/star.png'
+import pinkImage from '../images/star pu.png'
+import whiteStar from '../images/star (1).png'
 const Privacy = () => {
   return (
     <>
@@ -8,8 +12,14 @@ const Privacy = () => {
       <section className="privacy-section">
         <div className="privacy-container">
           <div className="privacy-flex">
+          <img src={greyImage} alt="" className="grey-star mobile-star" />
+          <img src={whiteStar} alt="" className="white-star mobile-star" />
             <div className="privacy-text">
+                <img src={privacyFlare} className="privacy-flare purple-flare" alt="" />
               <div className="privacy-text-heading">
+                <img src={greyImage} alt="" className="grey-image mobile-star" />
+                <img src={pinkImage} alt="" className="pink-image-1 mobile-star" />
+                <img src={pinkImage} alt="" className="pink-image-2 mobile-star" />
                 <h1>
                   Privacy Policy and <span> Terms</span>
                 </h1>

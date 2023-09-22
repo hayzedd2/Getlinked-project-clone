@@ -1,11 +1,20 @@
 import React from "react";
 import criteriaImage from "../images/8046554 1.png";
+import pinkStar from '../images/star pu.png'
+import purpleFlare from '../images/Purple-Lens-Flare-PNG (1).png'
+import greyStar from '../images/star.png'
+import whiteStar from '../images/star (1).png'
 const Criteria = () => {
   return (
     <>
       <section className="criteria-section">
         <div className="criteria-container">
           <div className="criteria-flex">
+            <img src={pinkStar} className="criteria-pink-star mobile-star" alt="" />
+            <img src={greyStar} className="criteria-grey-star mobile-star" alt="" />
+            <img src={whiteStar} className="criteria-white-star mobile-star" alt="" />
+            <img src={purpleFlare} className="criteria-flare-1 purple-flare" alt="" />
+            <img src={purpleFlare} className="criteria-flare-2 purple-flare" alt="" />
             <div className="criteria-img">
               <img src={criteriaImage} alt="" />
             </div>

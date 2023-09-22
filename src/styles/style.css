@@ -15,7 +15,7 @@
 body {
   margin: 0 auto;
   background-color: #150e28;
-
+  max-width: 100%;
   overflow-x: hidden;
 }
 /* NAVBAR STARTS */
@@ -276,15 +276,32 @@ nav .nav-button a button {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  position: relative;
 }
+
 .introduction-img {
   flex-basis: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.introduction-pink-1{
+  position: absolute;
+  left: 7%;
+  top: 20%;
+}
+
 .introduction-text {
   flex-basis: 50%;
+  position: relative;
+}
+.introduction-pink-2{
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 .introduction-text h1 {
   font-family: "ClashDisplay-Bold";
@@ -302,6 +319,10 @@ nav .nav-button a button {
   width: 490px;
   height: 477px;
 }
+.star{
+  width: 21px;
+  height: 25px;
+}
 .introduction-text p {
   max-width: 500px;
   color: #fff;
@@ -315,7 +336,16 @@ nav .nav-button a button {
 .rules-section {
   /* padding: 100px 0 100px 0; */
   padding-inline: 20px;
+  position: relative;
 }
+.purple-flare{
+  width: 900px;
+  height: 900px;
+  object-fit: contain;
+  z-index: -1;
+  opacity: 0.4;
+}
+
 .rules-flex {
   display: flex;
   align-items: center;
@@ -329,6 +359,7 @@ nav .nav-button a button {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .rules-img img {
   width: 664px;
@@ -336,6 +367,18 @@ nav .nav-button a button {
 }
 .rules-text {
   flex-basis: 50%;
+  position: relative;
+}
+.rules-grey-star{
+  position: absolute;
+  right: 50%;
+  z-index: 99;
+  top: -20%;
+}
+.rules-white-star{
+  position: absolute;
+  bottom: -15%;
+  right: 0;
 }
 .rules-text h1 {
   font-family: "ClashDisplay-Bold";
@@ -361,6 +404,16 @@ nav .nav-button a button {
   font-family: "Montserrat", sans-serif;
   line-height: 27.5px;
 }
+.rules-purple-flare-1{
+  position: absolute;
+  top: -25%;
+  left: 10%;
+}
+.rules-purple-flare-2{
+  position: absolute;
+  bottom: -45%;
+  right: -35%;
+}
 
 /* CRITERIA-SECTION */
 .criteria-section {
@@ -372,6 +425,38 @@ nav .nav-button a button {
   align-items: flex-start;
   justify-content: center;
   gap: 50px;
+  position: relative;
+}
+.criteria-pink-star{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 27px;
+  height: 33px;
+}
+.criteria-grey-star{
+  position: absolute;
+  bottom: 35%;
+  right: 72%;
+  width: 22px;
+  height: 28px;
+}
+.criteria-white-star{
+  position: absolute;
+  bottom:5%;
+  right: 52%;
+  width: 22px;
+  height: 28px;
+}
+.criteria-flare-1{
+  position: absolute;
+  bottom: -45%;
+  left: -7%;
+}
+.criteria-flare-2{
+  position: absolute;
+  bottom: -65%;
+  right: -30%;
 }
 .criteria-img {
   flex-basis: 50%;
@@ -442,7 +527,6 @@ nav .nav-button a button {
 }
 /* faq start */
 .faq-section {
-  /* padding: 100px 0 100px 0; */
   padding-inline: 20px;
 }
 .faq-flex {
@@ -452,6 +536,14 @@ nav .nav-button a button {
   gap: 50px;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+}
+.faq-white{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  bottom: 8%;
+  right: 0;
 }
 .faq-img {
   flex-basis: 55%;
@@ -467,6 +559,16 @@ nav .nav-button a button {
 .faq-text {
   flex-basis: 45%;
   padding-top: 100px;
+}
+.faq-heading{
+  position: relative;
+}
+.faq-pink-star{
+  position: relative;
+  top: -8%;
+  left: -5%;
+  width: 22px;
+  height: 28px;
 }
 .faq-heading h1 {
   font-family: "ClashDisplay-Bold";
@@ -490,6 +592,21 @@ nav .nav-button a button {
 }
 .faq-accordion {
   margin-top: 20px;
+  position: relative;
+}
+.accordion-grey{
+  position: absolute;
+  top: 25%;
+  width: 22px;
+  height: 28px;
+  right: -25%;
+}
+.accordion-pink{
+  position: absolute;
+  top: -21%;
+  width: 22px;
+  height: 28px;
+  right: -38%;
 }
 .faq-accordion ul li {
   color: #fff;
@@ -512,6 +629,30 @@ nav .nav-button a button {
 .timeline-section {
   padding: 100px 0 100px 0;
   padding-inline: 20px;
+}
+.timeline-container{
+  position: relative;
+}
+.timeline-pink{
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 22px;
+  height: 28px;
+}
+.timeline-grey{
+  position: absolute;
+  bottom: 5%;
+  left: 12%;
+  width: 22px;
+  height: 28px;
+}
+.timeline-white{
+  position: absolute;
+  top: 45%;
+  right: 12%;
+  width: 22px;
+  height: 28px;
 }
 .timeline-heading {
   text-align: center;
@@ -626,6 +767,49 @@ nav .nav-button a button {
   padding-inline: 20px;
   background: rgba(16, 11, 32, 1);
 }
+.prize-container{
+  position: relative;
+}
+.prize-flare-1{
+  position: absolute;
+  z-index: 1;
+  bottom: -25%;
+  left: 10%;
+}
+.prize-flare-2{
+  position: absolute;
+  z-index: 1;
+  bottom: -45%;
+  right: -40%;
+}
+.prize-pink{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 5%;
+  left: 30%;
+}
+.prize-white-2{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 55%;
+  right: 0%;
+}
+.prize-grey{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  bottom: -5%;
+  right: 20%;
+}
+.prize-white-1{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 35%;
+  left: 50%;
+}
 .prize-flex {
   display: flex;
   align-items: center;
@@ -678,6 +862,38 @@ nav .nav-button a button {
 .partners-container {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+}
+.partner-flare-1{
+  position: absolute;
+  top: -35%;
+  left: -30%;
+}
+.partner-pink-1{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 18%;
+  left: 5%;
+}
+.partner-white{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  bottom: 7%;
+  left: 58%;
+}
+.partner-pink-2{
+  position: absolute;
+  width: 22px;
+  height: 28px;
+  top: 33%;
+  left: 58%;
+}
+.partner-flare-2{
+  position: absolute;
+  top: 25%;
+  right: -45%;
 }
 .partners-heading {
   display: flex;
@@ -685,7 +901,16 @@ nav .nav-button a button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
+.grey-image{
+  position: absolute;
+  right: 30%;
+  top: 0;
+  width: 22px;
+  height: 28px;
+}
+
 .partners-heading h1 {
   font-family: "ClashDisplay-Bold";
   font-weight: 700;
@@ -727,10 +952,47 @@ nav .nav-button a button {
   justify-content: center;
   color: white;
   gap: 20px;
+  position: relative;
+}
+.grey-star{
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  width: 22px;
+  height: 28px;
+}
+.white-star{
+  position: absolute;
+  right: 33%;
+  bottom: 26%;
+  width: 14px;
+  height: 20px;
 }
 .privacy-text {
   flex-basis: 50%;
-}.privacy-img{
+  position: relative;
+}
+.pink-image-1{
+  position: absolute;
+  right: 0%;
+  top: 15%;
+  width: 22px;
+  height: 28px;
+}
+.pink-image-2{
+  position: absolute;
+  /* bottom: -40%; */
+  bottom: 15%;
+  left: -10%;
+  width: 22px;
+  height: 28px;
+}
+.privacy-flare{
+  position: absolute;
+  bottom: -40%;
+  left: -35%;
+}
+.privacy-img{
   display: flex;
   text-align: center;
   align-items: flex-end;
@@ -871,6 +1133,22 @@ footer {
 }
 .about-company {
   grid-column: span 6;
+  position: relative;
+}
+.footer-white-1{
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  left: -10%;
+  top: 15%;
+
+}
+.footer-pink{
+  position: absolute;
+  right: 5%;
+  width: 10px;
+  height: 16px;
+  bottom: 0;
 }
 .about-company h1 {
   font-family: "ClashDisplay-Bold";
@@ -933,6 +1211,14 @@ footer {
 }
 .contact-us {
   grid-column: span 3;
+  position: relative;
+}
+.footer-white-2{
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  width: 18px;
+  height: 24px;
 }
 .contact-us ul {
   line-height: 2.4;
@@ -988,25 +1274,33 @@ footer {
     flex-direction: column;
     gap: 0;
     position: absolute;
-    left: -1000px;
+    left: -2000px;
     transition: all 0, 3s;
-    top: 70px;
+    top: 40px;
     height: 100vh;
+    overflow: hidden;
     width: 100%;
     justify-content: flex-start;
     background-color: #150e28;
     overflow-y: hidden;
+    
   }
+  
   nav .nav-links ul {
     flex-direction: column;
     padding-bottom: 30px;
     gap: 25px;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  nav .nav-button a button{
+    margin-left: 15%;
   }
   nav .nav-links ul li a {
     padding: 0;
   }
   .active {
-    left: 0;
+    left: -40px;
     transition: all ease-in-out 0.35s;
   }
   .right-text {
@@ -1035,7 +1329,7 @@ footer {
     line-height: 42.36px;
     text-align: center;
   }
- 
+  
   .hero-section-text {
     display: flex;
     flex-direction: column;
@@ -1054,6 +1348,11 @@ footer {
   }
 
   .mobile-hero-section-img img {
+    object-fit: contain;
+  }
+  .mobile-star{
+    width: 12px;
+    height: 18px;
     object-fit: contain;
   }
   .hero-section-text p {
@@ -1104,6 +1403,7 @@ footer {
     position: static;
     right: -50px;
   }
+ 
   .center {
     border: 2px solid;
     align-items: center;

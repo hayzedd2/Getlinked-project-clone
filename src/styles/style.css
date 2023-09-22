@@ -286,7 +286,7 @@ nav .nav-button a button {
   justify-content: center;
 }
 
-.introduction-pink-1{
+.introduction-pink-1 {
   position: absolute;
   left: 7%;
   top: 20%;
@@ -296,7 +296,7 @@ nav .nav-button a button {
   flex-basis: 50%;
   position: relative;
 }
-.introduction-pink-2{
+.introduction-pink-2 {
   position: absolute;
   right: 15%;
   top: 15%;
@@ -319,7 +319,7 @@ nav .nav-button a button {
   width: 490px;
   height: 477px;
 }
-.star{
+.star {
   width: 21px;
   height: 25px;
 }
@@ -338,7 +338,7 @@ nav .nav-button a button {
   padding-inline: 20px;
   position: relative;
 }
-.purple-flare{
+.purple-flare {
   width: 900px;
   height: 900px;
   object-fit: contain;
@@ -369,13 +369,13 @@ nav .nav-button a button {
   flex-basis: 50%;
   position: relative;
 }
-.rules-grey-star{
+.rules-grey-star {
   position: absolute;
   right: 50%;
   z-index: 99;
   top: -20%;
 }
-.rules-white-star{
+.rules-white-star {
   position: absolute;
   bottom: -15%;
   right: 0;
@@ -404,12 +404,12 @@ nav .nav-button a button {
   font-family: "Montserrat", sans-serif;
   line-height: 27.5px;
 }
-.rules-purple-flare-1{
+.rules-purple-flare-1 {
   position: absolute;
   top: -25%;
   left: 10%;
 }
-.rules-purple-flare-2{
+.rules-purple-flare-2 {
   position: absolute;
   bottom: -45%;
   right: -35%;
@@ -427,33 +427,33 @@ nav .nav-button a button {
   gap: 50px;
   position: relative;
 }
-.criteria-pink-star{
+.criteria-pink-star {
   position: absolute;
   top: 0;
   left: 10%;
   width: 27px;
   height: 33px;
 }
-.criteria-grey-star{
+.criteria-grey-star {
   position: absolute;
   bottom: 35%;
   right: 72%;
   width: 22px;
   height: 28px;
 }
-.criteria-white-star{
+.criteria-white-star {
   position: absolute;
-  bottom:5%;
+  bottom: 5%;
   right: 52%;
   width: 22px;
   height: 28px;
 }
-.criteria-flare-1{
+.criteria-flare-1 {
   position: absolute;
   bottom: -45%;
   left: -7%;
 }
-.criteria-flare-2{
+.criteria-flare-2 {
   position: absolute;
   bottom: -65%;
   right: -30%;
@@ -538,7 +538,7 @@ nav .nav-button a button {
   margin: 0 auto;
   position: relative;
 }
-.faq-white{
+.faq-white {
   position: absolute;
   width: 22px;
   height: 28px;
@@ -560,10 +560,10 @@ nav .nav-button a button {
   flex-basis: 45%;
   padding-top: 100px;
 }
-.faq-heading{
+.faq-heading {
   position: relative;
 }
-.faq-pink-star{
+.faq-pink-star {
   position: relative;
   top: -8%;
   left: -5%;
@@ -594,14 +594,14 @@ nav .nav-button a button {
   margin-top: 20px;
   position: relative;
 }
-.accordion-grey{
+.accordion-grey {
   position: absolute;
   top: 25%;
   width: 22px;
   height: 28px;
   right: -25%;
 }
-.accordion-pink{
+.accordion-pink {
   position: absolute;
   top: -21%;
   width: 22px;
@@ -630,24 +630,24 @@ nav .nav-button a button {
   padding: 100px 0 100px 0;
   padding-inline: 20px;
 }
-.timeline-container{
+.timeline-container {
   position: relative;
 }
-.timeline-pink{
+.timeline-pink {
   position: absolute;
   top: 10%;
   left: 22%;
   width: 22px;
   height: 28px;
 }
-.timeline-grey{
+.timeline-grey {
   position: absolute;
   bottom: 5%;
   left: 12%;
   width: 22px;
   height: 28px;
 }
-.timeline-white{
+.timeline-white {
   position: absolute;
   top: 45%;
   right: 12%;
@@ -767,43 +767,43 @@ nav .nav-button a button {
   padding-inline: 20px;
   background: rgba(16, 11, 32, 1);
 }
-.prize-container{
+.prize-container {
   position: relative;
 }
-.prize-flare-1{
+.prize-flare-1 {
   position: absolute;
   z-index: 1;
   bottom: -25%;
   left: 10%;
 }
-.prize-flare-2{
+.prize-flare-2 {
   position: absolute;
   z-index: 1;
   bottom: -45%;
   right: -40%;
 }
-.prize-pink{
+.prize-pink {
   position: absolute;
   width: 22px;
   height: 28px;
   top: 5%;
   left: 30%;
 }
-.prize-white-2{
+.prize-white-2 {
   position: absolute;
   width: 22px;
   height: 28px;
   top: 55%;
   right: 0%;
 }
-.prize-grey{
+.prize-grey {
   position: absolute;
   width: 22px;
   height: 28px;
   bottom: -5%;
   right: 20%;
 }
-.prize-white-1{
+.prize-white-1 {
   position: absolute;
   width: 22px;
   height: 28px;
@@ -864,33 +864,33 @@ nav .nav-button a button {
   margin: 0 auto;
   position: relative;
 }
-.partner-flare-1{
+.partner-flare-1 {
   position: absolute;
   top: -35%;
   left: -30%;
 }
-.partner-pink-1{
+.partner-pink-1 {
   position: absolute;
   width: 22px;
   height: 28px;
   top: 18%;
   left: 5%;
 }
-.partner-white{
+.partner-white {
   position: absolute;
   width: 22px;
   height: 28px;
   bottom: 7%;
   left: 58%;
 }
-.partner-pink-2{
+.partner-pink-2 {
   position: absolute;
   width: 22px;
   height: 28px;
   top: 33%;
   left: 58%;
 }
-.partner-flare-2{
+.partner-flare-2 {
   position: absolute;
   top: 25%;
   right: -45%;
@@ -903,7 +903,7 @@ nav .nav-button a button {
   text-align: center;
   position: relative;
 }
-.grey-image{
+.grey-image {
   position: absolute;
   right: 30%;
   top: 0;
@@ -938,15 +938,15 @@ nav .nav-button a button {
   padding: 100px 20px 100px 20px;
 }
 /* privacy */
-.privacy-section{
+.privacy-section {
   padding: 100px 0 100px 0;
   padding-inline: 20px;
 }
-.privacy-container{
+.privacy-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.privacy-flex{
+.privacy-flex {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -954,14 +954,14 @@ nav .nav-button a button {
   gap: 20px;
   position: relative;
 }
-.grey-star{
+.grey-star {
   position: absolute;
   right: 0;
   bottom: 10%;
   width: 22px;
   height: 28px;
 }
-.white-star{
+.white-star {
   position: absolute;
   right: 33%;
   bottom: 26%;
@@ -972,14 +972,14 @@ nav .nav-button a button {
   flex-basis: 50%;
   position: relative;
 }
-.pink-image-1{
+.pink-image-1 {
   position: absolute;
   right: 0%;
   top: 15%;
   width: 22px;
   height: 28px;
 }
-.pink-image-2{
+.pink-image-2 {
   position: absolute;
   /* bottom: -40%; */
   bottom: 15%;
@@ -987,31 +987,31 @@ nav .nav-button a button {
   width: 22px;
   height: 28px;
 }
-.privacy-flare{
+.privacy-flare {
   position: absolute;
   bottom: -40%;
   left: -35%;
 }
-.privacy-img{
+.privacy-img {
   display: flex;
   text-align: center;
   align-items: flex-end;
   justify-content: flex-end;
   flex-basis: 50%;
-  background-image: url('../images/Vector\ \(5\).png');
+  background-image: url("../images/Vector\ \(5\).png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 480px;
   background-position: top right;
 }
-.privacy-img img{
+.privacy-img img {
   width: 499px;
   height: 689px;
   object-fit: contain;
   margin-top: 150px;
   margin-right: 30px;
 }
-.privacy-text-heading h1{
+.privacy-text-heading h1 {
   font-family: "ClashDisplay-Bold";
   font-weight: 700;
   font-size: 32px;
@@ -1020,10 +1020,10 @@ nav .nav-button a button {
   color: #fff;
   margin-bottom: 15px;
 }
-.privacy-text-heading h1 span{
+.privacy-text-heading h1 span {
   color: #d434fe;
 }
-.privacy-text-heading p{
+.privacy-text-heading p {
   font-size: 14px;
   line-height: 27.5px;
   color: rgba(255, 255, 255, 0.75);
@@ -1031,7 +1031,7 @@ nav .nav-button a button {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-.privacy-text-heading h6{
+.privacy-text-heading h6 {
   font-size: 14px;
   line-height: 26.38px;
   max-width: 438px;
@@ -1039,41 +1039,41 @@ nav .nav-button a button {
   font-weight: 400;
   margin-block: 20px;
 }
-.privacy-text-box{
+.privacy-text-box {
   margin-top: 50px;
   /* padding: 50px 40px 50px 40px;
    */
-   padding: 50px;
+  padding: 50px;
   border: 1px solid rgba(212, 52, 254, 1);
   border-radius: 5px;
 }
-.upper-text p{
+.upper-text p {
   line-height: 30.3px;
   max-width: 425px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
-.lower-text{
+.lower-text {
   margin-top: 20px;
 }
-.lower-text-heading h3{
+.lower-text-heading h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #d434fe;
   margin-bottom: 10px;
 }
-.lower-text-heading p{
+.lower-text-heading p {
   line-height: 30.3px;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-.lower-text-list{
+.lower-text-list {
   margin-top: 20px;
 }
-.lower-text-list ul li{
+.lower-text-list ul li {
   display: flex;
   /* align-items: center; */
   gap: 10px;
@@ -1083,18 +1083,17 @@ nav .nav-button a button {
   font-size: 14px;
   margin-bottom: 20px;
   max-width: 450px;
-
 }
-.lower-text-list ul li span img{
-   margin-top: 10px;
+.lower-text-list ul li span img {
+  margin-top: 10px;
 }
-.privacy-button{
+.privacy-button {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.privacy-button a button{
+.privacy-button a button {
   background: linear-gradient(
     270deg,
     #903aff 0%,
@@ -1135,15 +1134,14 @@ footer {
   grid-column: span 6;
   position: relative;
 }
-.footer-white-1{
+.footer-white-1 {
   position: absolute;
   width: 18px;
   height: 24px;
   left: -10%;
   top: 15%;
-
 }
-.footer-pink{
+.footer-pink {
   position: absolute;
   right: 5%;
   width: 10px;
@@ -1213,7 +1211,7 @@ footer {
   grid-column: span 3;
   position: relative;
 }
-.footer-white-2{
+.footer-white-2 {
   position: absolute;
   bottom: 20%;
   right: 0;
@@ -1241,16 +1239,125 @@ footer {
   font-weight: 400;
   color: white;
 }
+.contact-section {
+  padding: 100px 0 100px 0;
+  color: white;
+}
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.contact-flex {
+  display: flex;
+}
+.contact-text {
+  flex-basis: 50%;
+  margin-top: 50px;
+}
+.contact-text h1 {
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #d434fe;
+}
+.contact-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  max-width: 130px;
+  line-height: 1.8;
+}
+.contact-icons-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.contact-icons-flex img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.contact-form input {
+  width: 100%;
+  height: 43px;
+  padding-inline: 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.contact-form textarea {
+  width: 100%;
+  resize: none;
+  padding-inline: 15px;
+  padding-block: 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.contact-form-box {
+  flex-basis: 50%;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding-inline: 60px;
+}
+.desktop-none{
+  display: none;
+}
+.contact-form-heading h1 {
+  font-family: "ClashDisplay-Bold";
+  font-weight: 700;
+  font-size: 1.4rem;
+  max-width: 350px;
+  margin-bottom: 30px;
+  color: #d434fe;
+}
+.form-btn {
+  width: 100%;
+  text-align: center;
+}
+.nav-active {
+  background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+  background-clip: text;
+  color: transparent; 
+  
+}
+.form-btn a button {
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  width: 172px;
+  height: 53px;
+  border-radius: 4px;
+  line-height: 19.5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
 @media only screen and (max-width: 1260px) {
-  body{
+  body {
     width: 100vw;
-    border: 2px solid red;
-    overflow-x: hidden
+    overflow-x: hidden;
   }
-  .mobile-none-star{
+  .mobile-none-star {
     display: none;
   }
-  .purple-flare{
+  .purple-flare {
     display: none;
   }
   .nav-container {
@@ -1294,9 +1401,8 @@ footer {
     justify-content: flex-start;
     background-color: #150e28;
     overflow-y: hidden;
-    
   }
-  
+
   nav .nav-links ul {
     flex-direction: column;
     padding-bottom: 30px;
@@ -1304,7 +1410,7 @@ footer {
     margin-left: 15%;
     margin-top: 10%;
   }
-  nav .nav-button a button{
+  nav .nav-button a button {
     margin-left: 15%;
   }
   nav .nav-links ul li a {
@@ -1340,7 +1446,7 @@ footer {
     line-height: 42.36px;
     text-align: center;
   }
-  
+
   .hero-section-text {
     display: flex;
     flex-direction: column;
@@ -1361,7 +1467,7 @@ footer {
   .mobile-hero-section-img img {
     object-fit: contain;
   }
-  .mobile-star{
+  .mobile-star {
     width: 12px;
     height: 18px;
     object-fit: contain;
@@ -1414,7 +1520,7 @@ footer {
     position: static;
     right: -50px;
   }
- 
+
   .center {
     border: 2px solid;
     align-items: center;
@@ -1444,7 +1550,7 @@ footer {
 
     line-height: 26.6px;
   }
-  .introduction-text p{
+  .introduction-text p {
     max-width: 100%;
   }
   .introduction-flex {
@@ -1502,7 +1608,7 @@ footer {
   .rules-text {
     flex-basis: 100%;
   }
-  .rules-text p{
+  .rules-text p {
     max-width: 100%;
   }
   .criteria-section {
@@ -1568,7 +1674,7 @@ footer {
     padding: 50px 0 50px 0;
     padding-inline: 30px;
   }
-  .faq-accordion{
+  .faq-accordion {
     max-width: 100%;
   }
   .faq-text {
@@ -1614,10 +1720,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     flex-basis: 100%;
   }
-  .faq-accordion{
+  .faq-accordion {
     width: 100%;
   }
   .faq-accordion ul li {
@@ -1638,7 +1744,7 @@ footer {
     width: 397px;
     height: 397px;
   }
-  .faq-accordion{
+  .faq-accordion {
     max-width: 100%;
   }
 
@@ -1794,119 +1900,151 @@ footer {
     width: 321px;
     height: 282px;
   }
-  .partners-section{
+  .partners-section {
     padding: 50px 0 100px 0;
     padding-inline: 25px;
   }
-  .partners-img-box{
+  .partners-img-box {
     padding: 40px 20px 40px 20px;
   }
-  .partners-heading h1{
+  .partners-heading h1 {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .partners-heading p{
+  .partners-heading p {
     font-size: 0.8rem;
     line-height: 20.5px;
     max-width: 100%;
   }
-  .privacy-section{
+  .privacy-section {
     padding-block: 75px;
     padding-inline: 40px;
     padding-bottom: 0;
   }
-  .privacy-flex{
+  .privacy-flex {
     gap: 20px;
   }
-  .privacy-text-heading{
+  .privacy-text-heading {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .privacy-img{
+  .privacy-img {
     background-position: top;
     background-size: contain;
-    margin: 15px ;
+    margin: 15px;
     align-items: center;
     justify-content: center;
   }
-  .privacy-img img{
+  .privacy-img img {
     margin: 0;
   }
-  .privacy-text-heading h1{
+  .privacy-text-heading h1 {
     font-size: 20px;
     max-width: 50%;
     line-height: 24.6px;
   }
-  .privacy-text-heading p{
+  .privacy-text-heading p {
     font-size: 0.8rem;
     line-height: 27.5px;
   }
-  .privacy-text-heading h6{
+  .privacy-text-heading h6 {
     max-width: 100%;
     font-size: 0.8rem;
     line-height: 22.61px;
   }
-  .privacy-text-box{
+  .privacy-text-box {
     margin-top: 25px;
     padding: 40px 20px 40px 20px;
   }
-  .upper-text{
+  .upper-text {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .upper-text p{
+  .upper-text p {
     font-size: 13px;
     max-width: 100%;
     line-height: 29.97px;
     font-weight: 400;
-    
   }
-  .lower-text{
+  .lower-text {
     display: flex;
     flex-direction: column;
   }
-  .lower-text-heading{
+  .lower-text-heading {
     align-items: flex-start;
   }
-  .lower-text-heading h3{
+  .lower-text-heading h3 {
     font-size: 0.9rem;
     margin-bottom: 0;
   }
-  .lower-text-heading p{
+  .lower-text-heading p {
     font-size: 0.8rem;
-    
   }
-  .lower-text a button{
+  .lower-text a button {
     width: 99.35px;
     height: 33.35px;
     font-size: 12px;
   }
-  .lower-text-list{
+  .lower-text-list {
     margin-top: 10px;
   }
-  .lower-text-list ul li{
+  .lower-text-list ul li {
     font-size: 0.75rem;
     line-height: 21.11px;
     max-width: 100%;
   }
-  .lower-text-list ul li span img{
+  .lower-text-list ul li span img {
     width: 17px;
     height: 17px;
     object-fit: contain;
     margin-top: 0;
   }
-  .privacy-flex{
+  .privacy-flex {
     flex-wrap: wrap;
   }
-  .privacy-text{
+  .privacy-text {
     flex-basis: 100%;
   }
-  .privacy-img{
+  .privacy-img {
     flex-basis: 100%;
+  }
+  .contact-flex{
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-section{
+    padding-inline: 20px;
+    padding-block: 0px;
+  }
+  .contact-text{
+      display: none;
+  }
+  .contact-form-box{
+    flex-basis: 100%;
+    border: none;
+    background: none;
+    padding-inline: 30px;
+  }
+  .contact-form-heading h1{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  .desktop-none{
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-bottom: 20px;
+  }
+  .contact-form input{
+    margin-bottom: 20px;
   }
 }

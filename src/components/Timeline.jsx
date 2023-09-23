@@ -6,7 +6,7 @@ const Timeline = () => {
   return (
     <>
       <div className="nav-border"></div>
-      <section className="timeline-section">
+      <section className="timeline-section" id="timeline">
         <div className="timeline-container">
             <img src={pinkStar} className="timeline-pink mobile-star" alt="" />
             <img src={greyStar} className="timeline-grey mobile-star" alt="" />

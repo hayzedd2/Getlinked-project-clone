@@ -10,6 +10,7 @@ import Prize from "./components/Prize";
 import Privacy from "./components/Privacy";
 import Partners from "./components/Partners";
 import Contact from "./components/Contact";
+
 function App() {
   
   return (

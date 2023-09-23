@@ -46,7 +46,7 @@ const HeroSection = () => {
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
             Big prize
           </p>
-          <a href="">
+          <a href="/register">
             <button>Register</button>
           </a>
           <div className="count-down-text">

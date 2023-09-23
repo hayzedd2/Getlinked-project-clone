@@ -6,7 +6,7 @@ import whiteStar from '../images/star (1).png'
 const FAQ = () => {
   return (
     <>
-      <section className="faq-section">
+      <section className="faq-section" id="faq">
         <div className="faq-container">
           <div className="faq-flex">
           <img src={whiteStar} className="faq-white mobile-star mobile-none-star" alt="" />

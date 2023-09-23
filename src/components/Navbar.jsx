@@ -57,13 +57,13 @@ const Navbar = () => {
             <div className="nav-links">
               <ul>
                 <li>
-                  <a href="#">Timeline</a>
+                  <a href="#timeline">Timeline</a>
                 </li>
                 <li>
-                  <a href="#">Overview</a>
+                  <a href="#overview">Overview</a>
                 </li>
                 <li>
-                  <a href="#">FAQs</a>
+                  <a href="#faq">FAQs</a>
                 </li>
                 <li>
                   <a href="/contact">Contact</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="nav-button">
-              <a href="#">
+              <a href="/register">
                 <button>Register</button>
               </a>
             </div>

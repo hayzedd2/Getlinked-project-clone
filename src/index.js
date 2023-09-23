@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles/style.css";
 import Contact from "./components/Contact";
+import Register from "./components/Register";
 import 'react-toastify/dist/ReactToastify.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path : '/contact',
     element : <Contact/>
+  },
+  {
+    path : '/register',
+    element : <Register/>
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

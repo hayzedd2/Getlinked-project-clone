@@ -125,6 +125,7 @@ const Contact = () => {
                     onChange={inputFunc}
                     value={input.message}
                   ></textarea>
+                  
                   <div className="form-btn">
                     <a href=""><button type="submit">Submit</button></a>
                   </div>

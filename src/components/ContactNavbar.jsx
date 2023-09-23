@@ -14,21 +14,21 @@ const ContactNavbar = () => {
             <div className="nav-links">
               <ul>
                 <li>
-                  <a href="#">Timeline</a>
+                  <a href="/">Timeline</a>
                 </li>
                 <li>
-                  <a href="#">Overview</a>
+                  <a href="/">Overview</a>
                 </li>
                 <li>
-                  <a href="#">FAQs</a>
+                  <a href="/">FAQs</a>
                 </li>
                 <li>
-                  <a href="#" className="nav-active">Contact</a>
+                  <a href="/contact" className="nav-active">Contact</a>
                 </li>
               </ul>
             </div>
             <div className="nav-button">
-              <a href="#">
+              <a href="/register">
                 <button>Register</button>
               </a>
             </div>

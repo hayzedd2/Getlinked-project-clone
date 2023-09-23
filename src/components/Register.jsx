@@ -3,14 +3,16 @@ import { useState } from "react";
 import registerImage from "../images/3d-graphic-designer-showing-thumbs-up-png 1.png";
 import formImage from "../images/Part of move.png";
 import ContactNavbar from "./ContactNavbar";
-import { ToastContainer, toast } from "react-toastify";
+
+import Modal from "./Modal";
 
 const url = "https://backend.getlinked.ai/hackathon/registration";
 const categoryUrl = "https://backend.getlinked.ai/hackathon/categories-list";
 
 const Register = () => {
   const [category, setCategory] = useState([]);
-  const notify = () => toast("Your form has been submitted");
+  const [modal, setModal] = useState(false);
+
 
   const [input, setInput] = useState({
     email: "",
@@ -25,10 +27,16 @@ const Register = () => {
   const inputFunc = (e) => {
     setInput({ ...input, [e.target.name]: e.target.value });
   };
+  const showModal = ()=>{
+    setModal(true);
+  }
+  const removeModal = ()=>{
+    setModal(false)
 
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    
     const dataform = {
       email: input.email,
       team_name: input.team_name,
@@ -56,7 +64,7 @@ const Register = () => {
     };
 
     fetchApi();
-    notify();
+    showModal()
     clearInput();
   };
   const fetchCategory = async () => {
@@ -85,9 +93,11 @@ const Register = () => {
   return (
     <>
       <ContactNavbar />
+      <div className={`modal ${modal ? "visible" : ""}`}>
+        {modal && <Modal />}
+      </div>
       <section className="register-section">
         <div className="register-container">
-          <ToastContainer />
           <div className="register-flex">
             <div className="register-img">
               <img src={registerImage} alt="" />

@@ -7,6 +7,8 @@ import creativeImage from "../images/Creative 1.png";
 import chainImage from "../images/chain-9365116-7621444.png";
 import sparkImage from "../images/1f4a5.png";
 import mobileImage from '../images/Hackathon guy.png'
+import whiteStar from '../images/star (1).png'
+import greyStar from '../images/star.png'
 const HeroSection = () => {
   return (
    <>
@@ -24,10 +26,14 @@ const HeroSection = () => {
         </h2>{" "}
       </div>
       <div className="hero-section-grid">
-        <div className="hero-section-text">
-          <div className="light-up">
+      <div className="light-up">
             <img src={blurImage} className="light-up-img" alt="" />
           </div>
+        <div className="hero-section-text">
+          <img src={whiteStar} className="hero-white mobile-star" alt="" />
+          <img src={greyStar} className="hero-grey-1 mobile-star" alt="" />
+          <img src={greyStar} className="hero-grey-2 mobile-star mobile-none" alt="" />
+          
           <h1>
            
             getlinked{" "}

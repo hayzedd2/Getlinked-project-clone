@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Register from "./components/Register";
 import 'react-toastify/dist/ReactToastify.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Modal from "./components/Modal";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
   {
     path : '/register',
     element : <Register/>
-  }
+  },
+  {
+    path : '/modal',
+    element : <Modal/>
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

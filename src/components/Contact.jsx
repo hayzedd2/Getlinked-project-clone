@@ -5,6 +5,10 @@ import linkedin from "../images/Vector (2).png";
 import instagram from "../images/Vector (3).png";
 import twitter from "../images/Vector.png";
 import ContactNavbar from "./ContactNavbar";
+import purpleFlare from '../images/Purple-Lens-Flare-PNG (1).png'
+import pinkStar from '../images/star pu.png'
+import whiteStar from '../images/star (1).png'
+import greyStar from '../images/star.png'
 import { ToastContainer, toast } from "react-toastify";
 const url = "https://backend.getlinked.ai/hackathon/contact-form";
 
@@ -69,6 +73,8 @@ const Contact = () => {
         <div className="contact-container">
           <div className="contact-flex">
             <div className="contact-text">
+                <img src={purpleFlare} className="contact-flare-1 purple-flare" alt="" />
+                <img src={pinkStar} className="contact-pink mobile-star" alt="" />
               <h1>Get in touch</h1>
               <h4>Contact Information</h4>
               <h4>27, Alara Street Yaba 100012 Lagos State</h4>
@@ -92,6 +98,9 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact-form-box">
+                <img src={purpleFlare} className="contact-flare-2 purple-flare mobile-none" alt="" />
+                <img src={whiteStar} className="contact-white  mobile-star" alt="" />
+                <img src={greyStar} className="contact-grey  mobile-star" alt="" />
               <div className="contact-form-heading">
                 <h1>Questions or need assistance? Let us know about it!</h1>
                 <p className="desktop-none">

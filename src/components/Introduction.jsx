@@ -2,6 +2,7 @@ import React from "react";
 import introductionImage from "../images/the big idea 1.png";
 import pinkStar1 from '../images/sata gra@3x.png'
 import pinkStar2 from '../images/star pu.png'
+import arrow from '../images/arrow (1).png'
 const Introduction = () => {
   return (
     
@@ -11,6 +12,7 @@ const Introduction = () => {
         <div className="introduction-container">
           <div className="introduction-flex">
           <span><img src={pinkStar1} className="introduction-pink-1 star mobile-star" alt="" /></span>
+          <img src={arrow} className="introduction-arrow mobile-none" alt="" />
           
             <div className="introduction-img">
               <img src={introductionImage} alt="" />

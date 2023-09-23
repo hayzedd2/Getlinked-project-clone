@@ -3,6 +3,8 @@ import faqImage from '../images/cwok_casual_21 1.png'
 import pinkStar from '../images/star pu.png'
 import greyStar from '../images/star.png'
 import whiteStar from '../images/star (1).png'
+import questionMark from '../images/_.png'
+import questionMark1 from '../images/_ (2).png'
 const FAQ = () => {
   return (
     <>
@@ -51,6 +53,11 @@ const FAQ = () => {
               </div>
             </div>
             <div className="faq-img">
+             
+                <img src={questionMark} className="question-mark-1 mark" alt="" />
+                <img src={questionMark1} className="question-mark-2 mark" alt="" />
+                <img src={questionMark1} className="question-mark-3 mark" alt="" />
+              
                 <img src={faqImage} alt="" />
             </div>
           </div>

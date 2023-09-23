@@ -305,7 +305,11 @@ nav .nav-button a button {
   gap: 50px;
   position: relative;
 }
-
+.introduction-arrow{
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+}
 .introduction-img {
   flex-basis: 50%;
   display: flex;
@@ -577,11 +581,36 @@ nav .nav-button a button {
   display: flex;
   padding-top: 50px;
   overflow: visible;
+  position: relative;
 }
+
+
 .faq-img img {
   width: 731px;
   height: 731px;
+ 
   object-fit: contain;
+}
+.faq-img .question-mark-1{
+  position: absolute;
+  left: 28%;
+  top: 3%;
+  width: 114px;
+  height: 71px;
+}
+.faq-img .question-mark-2{
+  position: absolute;
+  left: 8%;
+  top: 10%;
+  width: 114px;
+  height: 71px;
+}
+.faq-img .question-mark-3{
+  position: absolute;
+  left: 48%;
+  top: 10%;
+  width: 114px;
+  height: 71px;
 }
 .faq-text {
   flex-basis: 45%;
@@ -1283,6 +1312,18 @@ footer {
 .contact-text {
   flex-basis: 50%;
   margin-top: 50px;
+  position: relative;
+}
+.contact-flare-1{
+  position: absolute;
+  top: -39%;
+  left: -40%;
+}
+.contact-pink{
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  top: -13%;
 }
 .contact-text h1 {
   font-family: "ClashDisplay-Bold";
@@ -1361,6 +1402,26 @@ footer {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 12px;
   padding-inline: 60px;
+  position: relative;
+}
+.contact-flare-2{
+  position: absolute;
+  bottom: -50%;
+  right: -60%;
+}
+.contact-white{
+  position: absolute;
+  bottom: 23%;
+  width: 18px;
+  height: 24px;
+  right: -5%;
+}
+.contact-grey{
+  position: absolute;
+  top: -10%;
+  width: 18px;
+  height: 24px;
+  right: 12%;
 }
 .desktop-none {
   display: none;
@@ -1518,7 +1579,8 @@ footer {
   padding-inline: 40px;
   height: 100vh;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(21, 14, 40, 0.93);
+
   position: absolute;
   z-index: 9999;
   top: 0;
@@ -1952,8 +2014,12 @@ footer {
   }
   .faq-flex {
     flex-wrap: wrap;
-    gap: 0;
+    gap: 30px;
     margin: 0;
+  }
+  .faq-img .mark{
+    width:50px ;
+    height: 32px;
   }
   .faq-text h1 {
     font-size: 20px;
@@ -2340,5 +2406,9 @@ footer {
   }
   .register-row .input {
     flex-basis: 100%;
+  }
+  .modal-text h1{
+    font-size: 16px;
+    max-width: 180px;
   }
 }

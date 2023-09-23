@@ -1527,6 +1527,19 @@ footer {
 }
 .register-form {
   margin-top: 20px;
+  position: relative;
+}
+.register-form .register-flare-2{
+  position: absolute;
+  bottom: -100%;
+  right: -60%;
+}
+.register-form .register-white{
+  position: absolute;
+  bottom: 10%;
+  right: -20%;
+  width: 18px;
+  height: 24px;
 }
 .register-form-heading h1 {
   margin-top: 15px;
@@ -1548,6 +1561,28 @@ footer {
 .register-form-btn {
   width: 100%;
   text-align: center;
+}
+.register-img{
+  position: relative;
+}
+.register-img .register-flare-1{
+  position: absolute;
+  top: -50%;
+  left: -10%;
+}
+.register-img .register-pink{
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  width: 18px;
+  height: 24px;
+}
+.register-img .register-grey{
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  width: 18px;
+  height: 24px;
 }
 .nav-active {
   background: linear-gradient(90deg, #903aff 3.08%, #ff26b9 93.85%);
@@ -2407,8 +2442,13 @@ footer {
   .register-row .input {
     flex-basis: 100%;
   }
+  .modal-text{
+    margin-top: 0;
+  }
   .modal-text h1{
     font-size: 16px;
     max-width: 180px;
+    line-height: 19.5px;
   }
+
 }

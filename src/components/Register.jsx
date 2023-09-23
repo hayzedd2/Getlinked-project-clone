@@ -3,7 +3,10 @@ import { useState } from "react";
 import registerImage from "../images/3d-graphic-designer-showing-thumbs-up-png 1.png";
 import formImage from "../images/Part of move.png";
 import ContactNavbar from "./ContactNavbar";
-
+import purpleFlare from '../images/Purple-Lens-Flare-PNG (1).png'
+import whiteStar from '../images/star (1).png'
+import greyStar from '../images/star.png'
+import pinkStar from '../images/star pu.png'
 import Modal from "./Modal";
 
 const url = "https://backend.getlinked.ai/hackathon/registration";
@@ -100,6 +103,9 @@ const Register = () => {
         <div className="register-container">
           <div className="register-flex">
             <div className="register-img">
+                <img src={purpleFlare} className="register-flare-1 purple-flare" alt="" />
+                <img src={pinkStar} className="register-pink mobile-star" alt="" />
+                <img src={greyStar} className="register-grey mobile-star" alt="" />
               <img src={registerImage} alt="" />
             </div>
             <div className="register-form-box">
@@ -109,6 +115,8 @@ const Register = () => {
                 <h1>Create your account</h1>
               </div>
               <div className="register-form">
+              <img src={purpleFlare} className="register-flare-2 mobile-none purple-flare" alt="" />
+              <img src={whiteStar} className="register-white mobile-star" alt="" />
                 <form action="/register" method="POST" onSubmit={handleSubmit}>
                   <div className="register-row">
                     <div className="input-1 input">

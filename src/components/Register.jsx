@@ -96,7 +96,7 @@ const Register = () => {
   return (
     <>
       <ContactNavbar />
-      <div className={`modal ${modal ? "visible" : ""}`}>
+      <div className={`modal ${modal ? "visible" : ""} modal-section`}>
         {modal && <Modal />}
       </div>
       <section className="register-section">

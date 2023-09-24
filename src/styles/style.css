@@ -1436,6 +1436,8 @@ footer {
 }
 .register-section {
   padding: 100px 0 100px 0;
+  position: relative;
+  z-index: 1;
 }
 .register-container {
   max-width: 1200px;
@@ -1537,7 +1539,7 @@ footer {
 .register-form .register-white{
   position: absolute;
   bottom: 10%;
-  right: -20%;
+  right: -10%;
   width: 18px;
   height: 24px;
 }
@@ -1613,9 +1615,8 @@ footer {
   justify-content: center;
   padding-inline: 40px;
   height: 100vh;
-  overflow: hidden;
-  background: rgba(21, 14, 40, 0.93);
-
+ 
+  background-color: rgba(21, 14, 40, 0.93);
   position: absolute;
   z-index: 9999;
   top: 0;
@@ -1629,6 +1630,7 @@ footer {
 
 .modal.visible {
   transform: scale(1);
+  background-color: rgba(21, 14, 40, 0.93);
 }
 .modal-box {
   border: 1px solid rgba(212, 52, 254, 1);
